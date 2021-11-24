@@ -33,4 +33,5 @@ public class Spawn : MonoBehaviour
         _rigidbody.velocity = Velocity;
         _rigidbody.useGravity = true;
     }
+
 }

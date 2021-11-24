@@ -10,7 +10,12 @@ public class Gun : MonoBehaviour
     [SerializeField] private LayerMask mouseColliderLayerMask;
     [SerializeField] private float fireDelay = .5f;
     [SerializeField] private float nextShot = 0.15f;
+    private Animator girlAnimator;
 
+    private void Awake() {
+        girlAnimator = GetComponent<Animator>();
+        
+    }
     
 
     private void Update()
@@ -22,6 +27,7 @@ public class Gun : MonoBehaviour
         
         if (Input.GetMouseButton(0) && Time.time > nextShot)
         {
+            girlAnimator.SetTrigger("Kiss");
             Instantiate(pfHeartProjectile, pfheartProjectilePos.position, Quaternion.LookRotation(dir, Vector3.up));
             nextShot = Time.time + fireDelay;
         }

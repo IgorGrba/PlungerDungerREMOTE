@@ -8,7 +8,7 @@ public class Bullet : MonoBehaviour
     private Rigidbody _rigidbody;
 
     [SerializeField] private Transform heartVFX;
-    
+
 
     private void Awake()
     {
@@ -29,6 +29,7 @@ public class Bullet : MonoBehaviour
         if (other.GetComponent<BulletTarget>() != null)
         {
             Instantiate(heartVFX, transform.position, Quaternion.identity);
+
         }
         else
         {
