@@ -31,7 +31,6 @@ public class GirlEnemy : MonoBehaviour
 
 
         Vector3 targetPos = guy1.transform.position;
-        Vector3 targetPos2 = guy2.transform.position;
 
 
         Vector3 dir = (targetPos - pfheartProjectilePos.position).normalized;
