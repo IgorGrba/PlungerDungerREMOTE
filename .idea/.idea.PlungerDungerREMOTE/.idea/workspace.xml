@@ -12,10 +12,10 @@
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GirlEnemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Guy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GirlEnemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="21Nc3e14XThKnnVAI2ER6lHerR1" />
@@ -64,6 +64,8 @@
       <updated>1637784790037</updated>
       <workItem from="1637784803988" duration="3515000" />
       <workItem from="1637790350638" duration="589000" />
+      <workItem from="1637854537709" duration="580000" />
+      <workItem from="1637861848354" duration="641000" />
     </task>
     <servers />
   </component>
