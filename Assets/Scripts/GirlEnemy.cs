@@ -57,7 +57,7 @@ public class GirlEnemy : MonoBehaviour
 
 
         Vector3 dir = (targetPos2 - pfheartProjectilePos.position).normalized;
-        yield return new WaitForSeconds(1);
+        yield return new WaitForSeconds(3f);
         Instantiate(pfHeartProjectile, pfheartProjectilePos.position, Quaternion.LookRotation(dir, Vector3.up));
                     transform.LookAt(targetPos2);// Look at the point
             transform.rotation = Quaternion.Euler(new Vector3(0, transform.rotation.eulerAngles.y, 0));
