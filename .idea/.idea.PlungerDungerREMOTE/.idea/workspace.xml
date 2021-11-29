@@ -16,6 +16,8 @@
       <option value="$PROJECT_DIR$/Assets/Guy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GirlEnemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Guy.cs" />
+      <option value="$PROJECT_DIR$/Assets/StackPlayers.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="21Nc3e14XThKnnVAI2ER6lHerR1" />
@@ -65,7 +67,10 @@
       <workItem from="1637784803988" duration="3515000" />
       <workItem from="1637790350638" duration="589000" />
       <workItem from="1637854537709" duration="580000" />
-      <workItem from="1637861848354" duration="641000" />
+      <workItem from="1637861848354" duration="972000" />
+      <workItem from="1637862845560" duration="6000" />
+      <workItem from="1638194495983" duration="2426000" />
+      <workItem from="1638196964165" duration="4633000" />
     </task>
     <servers />
   </component>

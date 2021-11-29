@@ -6,12 +6,11 @@ using DG.Tweening;
 
 public class Guy : MonoBehaviour
 {
-    [SerializeField] private float speed = 0.75f;
+    public float speed = 0.75f;
     [SerializeField] private Transform girl1;
     [SerializeField] private Transform girl2;
     [SerializeField] private float minimumDistance;
-    [SerializeField] private Animator guyAnim;
-    
+
 
     private Bullet bullet;
 
@@ -31,6 +30,10 @@ public class Guy : MonoBehaviour
                 Quaternion targetRotation = Quaternion.LookRotation(girl1.transform.position - transform.position);
                 transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 50 * Time.deltaTime);
                 transform.position += transform.forward * 1 * Time.deltaTime;
+
+                gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
+                gameObject.GetComponent<CapsuleCollider>().enabled = false;
+                StartCoroutine(Delay());
             }
         }
         else
@@ -45,13 +48,12 @@ public class Guy : MonoBehaviour
                 }
             }
         }
+    }
 
-        if (other.GetComponent<StopPlayer>() != null)
-        {
-            speed = 0;
-            guyAnim.SetTrigger("Dance");
-            transform.DORotate(new Vector3(0, 0, 0), 2f);
-        }
-        
+
+    private IEnumerator Delay()
+    {
+        yield return new WaitForSeconds(2f);
+        gameObject.GetComponent<CapsuleCollider>().enabled = true;
     }
 }

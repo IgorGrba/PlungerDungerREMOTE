@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Stick
+  - Guy1
+  - Guy2
+  - Guy3
+  - Guy4
+  - Guy5
+  - Guy6
   layers:
   - Default
   - TransparentFX
