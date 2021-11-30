@@ -11,6 +11,14 @@ TagManager:
   - Guy4
   - Guy5
   - Guy6
+  - EnemyGuy1
+  - EnemyGuy2
+  - EnemyGuy3
+  - EnemyGuy4
+  - EnemyGuy5
+  - EnemyGuy6
+  - StackTrigger
+  - Girl
   layers:
   - Default
   - TransparentFX

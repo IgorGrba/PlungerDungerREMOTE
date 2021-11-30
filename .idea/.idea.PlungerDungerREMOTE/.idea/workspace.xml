@@ -10,14 +10,30 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/VictoryEnd.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/AnimationTrigger.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
-      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Guy.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GirlEnemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Guy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GirlEnemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
       <option value="$PROJECT_DIR$/Assets/StackPlayers.cs" />
+      <option value="$PROJECT_DIR$/Assets/AnimationTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/VictoryEnd.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="21Nc3e14XThKnnVAI2ER6lHerR1" />
@@ -71,6 +87,10 @@
       <workItem from="1637862845560" duration="6000" />
       <workItem from="1638194495983" duration="2426000" />
       <workItem from="1638196964165" duration="4633000" />
+      <workItem from="1638273628750" duration="1103000" />
+      <workItem from="1638274805452" duration="8959000" />
+      <workItem from="1638287062183" duration="2627000" />
+      <workItem from="1638297127769" duration="1427000" />
     </task>
     <servers />
   </component>
