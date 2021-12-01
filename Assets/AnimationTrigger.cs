@@ -5,6 +5,8 @@ using UnityEngine;
 public class AnimationTrigger : MonoBehaviour
 {
     public GameObject girlClone;
+    public GameObject girl2Clone;
+    public GameObject realGirl2;
     public GameObject realGirl;
     public GameObject camera1;
     public GameObject camera2;
@@ -25,8 +27,10 @@ public class AnimationTrigger : MonoBehaviour
 
     void ActivateCutscene()
     {
+        realGirl2.SetActive(false);
         realGirl.SetActive(false);
         girlClone.SetActive(true);
+        girl2Clone.SetActive(true);
         camera1.SetActive(false);
         camera2.SetActive(true);
         
