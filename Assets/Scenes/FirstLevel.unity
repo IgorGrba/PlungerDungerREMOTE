@@ -218,7 +218,7 @@ Transform:
   m_Children:
   - {fileID: 2085487155}
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &95741475 stripped
 GameObject:
@@ -253,6 +253,7 @@ MonoBehaviour:
   girl1: {fileID: 1775287809}
   girl2: {fileID: 0}
   minimumDistance: 3
+  shirtMaterial: {fileID: 2100000, guid: 48d5b9f6257cb6e4381bc5889f611942, type: 2}
 --- !u!95 &95741478
 Animator:
   serializedVersion: 3
@@ -489,7 +490,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!1 &173276011
 GameObject:
@@ -2624,7 +2625,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &422250581 stripped
 GameObject:
@@ -3030,7 +3031,7 @@ MonoBehaviour:
   splineFollower: {fileID: 2056635172}
   confetti: {fileID: 218146634}
   crown: {fileID: 373902400}
-  fakeCrown: {fileID: 1706172679}
+  fakeCrown: {fileID: 52367219}
 --- !u!65 &574793604
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3105,7 +3106,7 @@ Transform:
   m_LocalScale: {x: 1.1845828, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &577193593 stripped
 GameObject:
@@ -4229,6 +4230,7 @@ MonoBehaviour:
   girl1: {fileID: 1775287809}
   girl2: {fileID: 1941600044}
   minimumDistance: 3
+  shirtMaterial: {fileID: 2100000, guid: 0e2e4d258af3729418b401ca6761325f, type: 2}
 --- !u!114 &969383980
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4507,7 +4509,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 81298bb5e7276a441922b25b93284b4c, type: 3}
       propertyPath: m_RootOrder
-      value: 14
+      value: 13
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 81298bb5e7276a441922b25b93284b4c, type: 3}
       propertyPath: m_LocalPosition.x
@@ -5497,6 +5499,7 @@ MonoBehaviour:
   girl1: {fileID: 1775287809}
   girl2: {fileID: 0}
   minimumDistance: 3
+  shirtMaterial: {fileID: 2100000, guid: 2c8b77fa56942ea44ad6cc4a757c1546, type: 2}
 --- !u!95 &1203146973
 Animator:
   serializedVersion: 3
@@ -5951,7 +5954,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 445124, guid: 039f0809d882b7f44ac9a410a3f7fa26, type: 3}
       propertyPath: m_RootOrder
-      value: 19
+      value: 18
       objectReference: {fileID: 0}
     - target: {fileID: 445124, guid: 039f0809d882b7f44ac9a410a3f7fa26, type: 3}
       propertyPath: m_LocalPosition.x
@@ -6996,6 +6999,7 @@ MonoBehaviour:
   girl1: {fileID: 1775287809}
   girl2: {fileID: 1941600044}
   minimumDistance: 3
+  shirtMaterial: {fileID: 0}
 --- !u!95 &1375849555
 Animator:
   serializedVersion: 3
@@ -7239,7 +7243,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fedd6033b0f6a4b4181b413c0269d602, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.89
+      value: -1.58
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: fedd6033b0f6a4b4181b413c0269d602, type: 3}
       propertyPath: m_LocalRotation.w
@@ -7406,11 +7410,6 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: -1095739933768376621, guid: 41916a31808061b47a7200f78a086dd6, type: 3}
---- !u!1 &1706172679 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 9234a4ca450e9844098df2d036b943a2, type: 3}
-  m_PrefabInstance: {fileID: 1274423042}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1715727926
 GameObject:
   m_ObjectHideFlags: 0
@@ -7639,7 +7638,7 @@ Transform:
   m_Children:
   - {fileID: 110661333}
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 40.671, y: 41.276, z: -1.403}
 --- !u!114 &1760931124
 MonoBehaviour:
@@ -7782,7 +7781,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1775287804}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.96, y: 1.46, z: 3.01}
+  m_LocalPosition: {x: -0.96, y: 1.502, z: 3.01}
   m_LocalScale: {x: 4.1124735, y: 1, z: 1}
   m_Children:
   - {fileID: 531623232}
@@ -8012,6 +8011,7 @@ MonoBehaviour:
   girl1: {fileID: 1775287809}
   girl2: {fileID: 1941600044}
   minimumDistance: 3
+  shirtMaterial: {fileID: 2100000, guid: 98d9be0eff333f04690a983444a959b8, type: 2}
 --- !u!114 &1893580004
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8115,7 +8115,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1941600039
 GameObject:
@@ -8294,7 +8294,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: -8679921383154817045, guid: 81298bb5e7276a441922b25b93284b4c, type: 3}
       propertyPath: m_RootOrder
-      value: 20
+      value: 19
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 81298bb5e7276a441922b25b93284b4c, type: 3}
       propertyPath: m_LocalScale.x
@@ -9534,7 +9534,7 @@ MonoBehaviour:
   autoStartPosition: 0
   follow: 1
   preserveUniformSpeedWithOffset: 0
-  _followSpeed: 1
+  _followSpeed: 1.7
   _followDuration: 1
   _startPosition: 0
   editorSetPosition: 1
@@ -9652,8 +9652,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   speed: 0.75
   girl1: {fileID: 1775287809}
-  girl2: {fileID: 0}
+  girl2: {fileID: 1941600044}
   minimumDistance: 3
+  shirtMaterial: {fileID: 2100000, guid: 12dbdeea0b1a34143ac2acb144f6574b, type: 2}
 --- !u!114 &2104720812
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9711,7 +9712,7 @@ Rigidbody:
   m_Drag: 0
   m_AngularDrag: 0.05
   m_UseGravity: 1
-  m_IsKinematic: 0
+  m_IsKinematic: 1
   m_Interpolate: 0
   m_Constraints: 122
   m_CollisionDetection: 0
@@ -10433,4 +10434,4 @@ MonoBehaviour:
   waitingTime: 5
   guy1: {fileID: 641951742}
   guy2: {fileID: 1138699401}
-  guy3: {fileID: 440713088}
+  guy3: {fileID: 817719427}

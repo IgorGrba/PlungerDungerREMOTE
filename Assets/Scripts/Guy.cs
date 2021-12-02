@@ -12,9 +12,14 @@ public class Guy : MonoBehaviour
     [SerializeField] private float minimumDistance;
 
 
+    [SerializeField] private Material shirtMaterial;
+
     private Bullet bullet;
 
-    
+    private void Start()
+    {
+        shirtMaterial.DOColor(new Color32(255, 255, 255, 255), 0.25f);
+    }
 
     private void Update() {
         transform.Translate(Vector3.forward * speed * Time.deltaTime);
@@ -27,10 +32,12 @@ public class Guy : MonoBehaviour
         {
             if (Vector3.Distance(transform.position, girl1.position) > minimumDistance)
             {
+                shirtMaterial.DOColor(new Color32(255, 0, 255, 255), 0.25f);
                 Quaternion targetRotation = Quaternion.LookRotation(girl1.transform.position - transform.position);
                 transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 50 * Time.deltaTime);
                 transform.position += transform.forward * 1 * Time.deltaTime;
 
+                
                 gameObject.GetComponent<Rigidbody>().constraints = RigidbodyConstraints.FreezeAll;
                 gameObject.GetComponent<CapsuleCollider>().enabled = false;
                 StartCoroutine(Delay());
@@ -42,6 +49,7 @@ public class Guy : MonoBehaviour
             {
                 if (Vector3.Distance(transform.position, girl2.position) > minimumDistance)
                 {
+                    shirtMaterial.DOColor(new Color32(255, 135, 0, 255), 0.25f);
                     Quaternion targetRotation = Quaternion.LookRotation(girl2.transform.position - transform.position);
                     transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 50 * Time.deltaTime);
                     transform.position += transform.forward * 1 * Time.deltaTime;
@@ -53,7 +61,7 @@ public class Guy : MonoBehaviour
 
     private IEnumerator Delay()
     {
-        yield return new WaitForSeconds(2f);
+        yield return new WaitForSeconds(1f);
         gameObject.GetComponent<CapsuleCollider>().enabled = true;
     }
 }

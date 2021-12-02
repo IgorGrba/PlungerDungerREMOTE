@@ -27,13 +27,13 @@
     <changedPaths>
       <option value="$PROJECT_DIR$/Assets/Guy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Bullet.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/Guy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/EnemyBullet.cs" />
-      <option value="$PROJECT_DIR$/Assets/Scripts/GirlEnemy.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/GameManager.cs" />
-      <option value="$PROJECT_DIR$/Assets/StackPlayers.cs" />
       <option value="$PROJECT_DIR$/Assets/VictoryEnd.cs" />
       <option value="$PROJECT_DIR$/Assets/AnimationTrigger.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/GirlEnemy.cs" />
+      <option value="$PROJECT_DIR$/Assets/StackPlayers.cs" />
+      <option value="$PROJECT_DIR$/Assets/Scripts/Guy.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="21Nc3e14XThKnnVAI2ER6lHerR1" />
@@ -92,6 +92,7 @@
       <workItem from="1638287062183" duration="2627000" />
       <workItem from="1638297127769" duration="1427000" />
       <workItem from="1638359632040" duration="659000" />
+      <workItem from="1638445057673" duration="2961000" />
     </task>
     <servers />
   </component>

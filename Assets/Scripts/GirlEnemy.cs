@@ -35,7 +35,8 @@ public class GirlEnemy : MonoBehaviour
             timer = 0;
             Invoke("ShootGuy2", 2f);
             timer = 0;
-            //Invoke("ShootGuy3", 3f);
+            Invoke("ShootGuy3", 6f);
+            timer = 0;
         }
     }
 
