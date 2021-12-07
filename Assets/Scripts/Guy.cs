@@ -32,7 +32,7 @@ public class Guy : MonoBehaviour
         {
             if (Vector3.Distance(transform.position, girl1.position) > minimumDistance)
             {
-                shirtMaterial.DOColor(new Color32(255, 0, 255, 255), 0.25f);
+                shirtMaterial.DOColor(new Color32(255, 70, 255, 255), 0.25f);
                 Quaternion targetRotation = Quaternion.LookRotation(girl1.transform.position - transform.position);
                 transform.rotation = Quaternion.Slerp(transform.rotation, targetRotation, 50 * Time.deltaTime);
                 transform.position += transform.forward * 1 * Time.deltaTime;
