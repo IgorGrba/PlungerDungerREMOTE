@@ -5,6 +5,7 @@ using UnityEngine;
 
 public class HeartDisable : MonoBehaviour
 {
+    [SerializeField] private GameObject guysAndGirls;
     [SerializeField] private GameObject heartVisual;
 
 
@@ -19,5 +20,6 @@ public class HeartDisable : MonoBehaviour
     void DisableHeartVisual()
     {
         heartVisual.SetActive(true);
+        guysAndGirls.SetActive(true);
     }
 }

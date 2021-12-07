@@ -20,6 +20,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/ActivateAngryAnimation.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <changedPaths>
@@ -36,6 +37,9 @@
       <option value="$PROJECT_DIR$/Assets/AnimationTrigger.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/Gun.cs" />
       <option value="$PROJECT_DIR$/Assets/Scripts/VictoryEnd.cs" />
+      <option value="$PROJECT_DIR$/Assets/ActivateGameplay.cs" />
+      <option value="$PROJECT_DIR$/Assets/HeartDisable.cs" />
+      <option value="$PROJECT_DIR$/Assets/ActivateAngryAnimation.cs" />
     </changedPaths>
   </component>
   <component name="ProjectId" id="21Nc3e14XThKnnVAI2ER6lHerR1" />
@@ -100,6 +104,7 @@
       <workItem from="1638801872346" duration="137000" />
       <workItem from="1638808720423" duration="2521000" />
       <workItem from="1638879516198" duration="20000" />
+      <workItem from="1638898570531" duration="1048000" />
     </task>
     <servers />
   </component>

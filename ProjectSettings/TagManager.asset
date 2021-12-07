@@ -19,6 +19,7 @@ TagManager:
   - EnemyGuy6
   - StackTrigger
   - Girl
+  - AnimTrigger
   layers:
   - Default
   - TransparentFX
