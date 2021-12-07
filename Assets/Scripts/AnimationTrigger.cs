@@ -12,6 +12,9 @@ public class AnimationTrigger : MonoBehaviour
     public GameObject camera2;
 
 
+    [SerializeField] private GameObject heartVisual;
+
+
     public GameObject line;
     private void OnTriggerEnter(Collider other)
     {
@@ -37,5 +40,6 @@ public class AnimationTrigger : MonoBehaviour
         camera1.SetActive(false);
         camera2.SetActive(true);
         line.SetActive(false);
+        heartVisual.SetActive(false);
     }
 }
