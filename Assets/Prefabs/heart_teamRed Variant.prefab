@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ccb53577638d1c640914b68e26fc9f85, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  heartVFX: {fileID: 491564, guid: 836a6e787e3b11941b38b8fff2af4e5b, type: 3}
+  heartVFX: {fileID: 1748092001078667723, guid: ac360fc09f074854a820baf9f0620386, type: 3}
 --- !u!1001 &2102678162443925167
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -68,6 +68,22 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 19856642, guid: faed733be55ec8345802e8121b1b1952, type: 3}
+      propertyPath: RotationModule.x.minMaxState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 19856642, guid: faed733be55ec8345802e8121b1b1952, type: 3}
+      propertyPath: RotationModule.y.minMaxState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 19856642, guid: faed733be55ec8345802e8121b1b1952, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.43137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 19856642, guid: faed733be55ec8345802e8121b1b1952, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.6666667
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: faed733be55ec8345802e8121b1b1952, type: 3}
 --- !u!1001 &2631152340986897497
@@ -80,6 +96,14 @@ PrefabInstance:
     - target: {fileID: -3985267855471700297, guid: 4ffe2b191a931a74dafbd7b999e5d88f, type: 3}
       propertyPath: m_UseGravity
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 136562203090138393, guid: 4ffe2b191a931a74dafbd7b999e5d88f, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.b
+      value: 0.43137255
+      objectReference: {fileID: 0}
+    - target: {fileID: 136562203090138393, guid: 4ffe2b191a931a74dafbd7b999e5d88f, type: 3}
+      propertyPath: InitialModule.startColor.maxColor.g
+      value: 0.6666667
       objectReference: {fileID: 0}
     - target: {fileID: 136562203104324875, guid: 4ffe2b191a931a74dafbd7b999e5d88f, type: 3}
       propertyPath: m_RootOrder
@@ -133,6 +157,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: heart_teamRed Variant
       objectReference: {fileID: 0}
+    - target: {fileID: 5870490937420250205, guid: 4ffe2b191a931a74dafbd7b999e5d88f, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 05194fe4d8a1ab74291db7f94091697d, type: 2}
     m_RemovedComponents:
     - {fileID: 2299566618707822846, guid: 4ffe2b191a931a74dafbd7b999e5d88f, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 4ffe2b191a931a74dafbd7b999e5d88f, type: 3}
