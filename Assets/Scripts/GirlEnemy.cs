@@ -23,11 +23,15 @@ public class GirlEnemy : MonoBehaviour
     }
 
     private void Start() {
-        
+        Invoke("ShootGuy1", 2f);
+        Invoke("ShootGuy2", 6f);
+        Invoke("ShootGuy3", 10f);
+        Invoke("ShootGuy3", 17f);
+        Invoke("ShootGuy3", 23f);
     }
 
 
-    private void Update()
+    /*private void Update()
     {
         timer += Time.deltaTime;
         if(timer > waitingTime){
@@ -37,8 +41,11 @@ public class GirlEnemy : MonoBehaviour
             timer = 0;
             Invoke("ShootGuy3", 7f);
             timer = 0;
+            
+            Invoke("ShootGuy3", 10f);
+            timer = 0;
         }
-    }
+    }*/
 
     
 
@@ -70,7 +77,7 @@ public class GirlEnemy : MonoBehaviour
 
         transform.LookAt(targetPos); // Look at the point
         transform.rotation = Quaternion.Euler(new Vector3(0, transform.rotation.eulerAngles.y, 0));
-        waitingTime = 50;
+        
     }
     void ShootGuy3()
     {
@@ -84,7 +91,6 @@ public class GirlEnemy : MonoBehaviour
 
         transform.LookAt(targetPos); // Look at the point
         transform.rotation = Quaternion.Euler(new Vector3(0, transform.rotation.eulerAngles.y, 0));
-       
     }
     
 

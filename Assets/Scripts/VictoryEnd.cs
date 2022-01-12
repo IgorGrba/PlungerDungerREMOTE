@@ -23,7 +23,7 @@ public class VictoryEnd : MonoBehaviour
             girlAnim.SetTrigger("dance");
             splineFollower.enabled = false;
             girl.DORotate(new Vector3(0, -85f, 0), 0.25f);
-            girl.DOMove(new Vector3(-1.164f, 2.446925f, 4.025f), 0.25f);
+            girl.DOMove(new Vector3(0, 2.511f, -6.2f), 0.25f);
             confetti.SetActive(true);
             fakeCrown.SetActive(false);
             crown.SetActive(true);
