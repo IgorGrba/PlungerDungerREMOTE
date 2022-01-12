@@ -31,11 +31,11 @@ public class GirlEnemy : MonoBehaviour
     {
         timer += Time.deltaTime;
         if(timer > waitingTime){
-            Invoke("ShootGuy1", 1f);
+            Invoke("ShootGuy1", 2f);
             timer = 0;
-            Invoke("ShootGuy2", 2f);
+            Invoke("ShootGuy2", 5f);
             timer = 0;
-            Invoke("ShootGuy3", 6f);
+            Invoke("ShootGuy3", 7f);
             timer = 0;
         }
     }

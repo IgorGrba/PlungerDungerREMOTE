@@ -42,6 +42,9 @@
       <option value="$PROJECT_DIR$/Assets/ActivateAngryAnimation.cs" />
     </changedPaths>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectId" id="21Nc3e14XThKnnVAI2ER6lHerR1" />
   <component name="ProjectViewState">
     <option name="foldersAlwaysOnTop" value="false" />
@@ -53,6 +56,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="rider.run.widget.enabled.cache" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -106,12 +110,17 @@
       <workItem from="1638879516198" duration="20000" />
       <workItem from="1638898570531" duration="1048000" />
       <workItem from="1640615600850" duration="27000" />
+      <workItem from="1640620326438" duration="596000" />
+      <workItem from="1641991843884" duration="1835000" />
+      <workItem from="1641993723283" duration="6000" />
+      <workItem from="1641994562163" duration="918000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="UnityCheckinConfiguration" checkUnsavedScenes="true" />
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
   <component name="VcsManagerConfiguration">

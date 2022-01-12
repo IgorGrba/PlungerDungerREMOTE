@@ -22,7 +22,7 @@ public class AnimationTrigger : MonoBehaviour
         {
             GameManager.instance.DecreaseItemCount();
 
-            if (GameManager.instance.itemCount == -3)
+            if (GameManager.instance.itemCount <= -2)
             {
                 Debug.Log("Completed");
                 Invoke("ActivateCutscene", 2f);
