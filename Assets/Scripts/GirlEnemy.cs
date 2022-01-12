@@ -23,11 +23,13 @@ public class GirlEnemy : MonoBehaviour
     }
 
     private void Start() {
-        Invoke("ShootGuy1", 2f);
-        Invoke("ShootGuy2", 6f);
-        Invoke("ShootGuy3", 10f);
-        Invoke("ShootGuy3", 17f);
-        Invoke("ShootGuy3", 23f);
+        Invoke("ShootGuy1", 4f);
+        Invoke("ShootGuy2", 8f);
+        Invoke("ShootGuy3", 14f);
+        Invoke("ShootGuy3", 18f);
+        Invoke("ShootGuy3", 22f);
+        Invoke("ShootGuy3", 26f);
+        Invoke("ShootGuy3", 31f);
     }
 
 
