@@ -18,7 +18,7 @@ public class EnemyBullet : MonoBehaviour
 
     private void Start()
     {
-        float speed = 9f;
+        float speed = 13f;
 
         _rigidbody.velocity = transform.forward * speed;
     }

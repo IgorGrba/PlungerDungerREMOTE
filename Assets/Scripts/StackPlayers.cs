@@ -46,7 +46,7 @@ public class StackPlayers : MonoBehaviour
    {
       if (other.gameObject.CompareTag("Guy1"))
       {
-         guy1.GetComponent<Guy>().speed = 0;
+         guy1.GetComponent<Waypoints>().speed = 0;
          guy1.GetComponent<Animator>().SetTrigger("Kneel");
          guy1.transform.DOMove(stackPosition1.position, 0.5f);
          guy1.GetComponent<CapsuleCollider>().center = new Vector3(0, 1.73f, 0.35f);
@@ -57,7 +57,7 @@ public class StackPlayers : MonoBehaviour
       }
       else if (other.gameObject.CompareTag("Guy2"))
       {
-         guy2.GetComponent<Guy>().speed = 0;
+         guy2.GetComponent<Waypoints>().speed = 0;
          guy2.GetComponent<Animator>().SetTrigger("Kneel");
          guy2.transform.DOMove(stackPosition2.position, 0.5f);
          guy2.GetComponent<CapsuleCollider>().center = new Vector3(0, 1.73f, 0.35f);
@@ -68,7 +68,7 @@ public class StackPlayers : MonoBehaviour
       }
       else if (other.gameObject.CompareTag("Guy3"))
       {
-         guy3.GetComponent<Guy>().speed = 0;
+         guy3.GetComponent<Waypoints>().speed = 0;
          guy3.GetComponent<Animator>().SetTrigger("Kneel");
          guy3.transform.DOMove(stackPosition3.position, 0.5f);
          guy3.GetComponent<CapsuleCollider>().center = new Vector3(0, 1.73f, 0.35f);
@@ -79,7 +79,7 @@ public class StackPlayers : MonoBehaviour
       }
       else if (other.gameObject.CompareTag("Guy4"))
       {
-         guy4.GetComponent<Guy>().speed = 0;
+         guy4.GetComponent<Waypoints>().speed = 0;
          guy4.GetComponent<Animator>().SetTrigger("Kneel");
          guy4.transform.DOMove(stackPosition4.position, 0.5f);
          guy4.GetComponent<CapsuleCollider>().center = new Vector3(0, 1.73f, 0.35f);
@@ -90,7 +90,7 @@ public class StackPlayers : MonoBehaviour
       }
       else if (other.gameObject.CompareTag("Guy5"))
       {
-         guy5.GetComponent<Guy>().speed = 0;
+         guy5.GetComponent<Waypoints>().speed = 0;
          guy5.GetComponent<Animator>().SetTrigger("Kneel");
          guy5.transform.DOMove(stackPosition5.position, 0.5f);
          guy5.GetComponent<CapsuleCollider>().radius = 0.30f;
@@ -102,7 +102,7 @@ public class StackPlayers : MonoBehaviour
       }
       else if (other.gameObject.CompareTag("Guy6"))
       {
-         guy6.GetComponent<Guy>().speed = 0;
+         guy6.GetComponent<Waypoints>().speed = 0;
          guy6.GetComponent<Animator>().SetTrigger("Kneel");
          guy6.transform.DOMove(stackPosition6.position, 0.5f);
          guy6.GetComponent<CapsuleCollider>().radius = 0.30f;
@@ -117,7 +117,7 @@ public class StackPlayers : MonoBehaviour
       
       else if (other.gameObject.CompareTag("EnemyGuy1"))
       {
-         enemyGuy1.GetComponent<Guy>().speed = 0;
+         enemyGuy1.GetComponent<Waypoints>().speed = 0;
          enemyGuy1.GetComponent<Animator>().SetTrigger("Kneel");
          enemyGuy1.transform.DOMove(enemyStackPosition1.position, 0.5f);
          enemyGuy1.GetComponent<CapsuleCollider>().height = 1.8f;
@@ -127,7 +127,7 @@ public class StackPlayers : MonoBehaviour
       }
       else if (other.gameObject.CompareTag("EnemyGuy2"))
       {
-         enemyGuy2.GetComponent<Guy>().speed = 0;
+         enemyGuy2.GetComponent<Waypoints>().speed = 0;
          enemyGuy2.GetComponent<Animator>().SetTrigger("Kneel");
          enemyGuy2.transform.DOMove(enemyStackPosition2.position, 0.5f);
          enemyGuy2.GetComponent<CapsuleCollider>().height = 1.8f;
@@ -137,7 +137,7 @@ public class StackPlayers : MonoBehaviour
       }
       else if (other.gameObject.CompareTag("EnemyGuy3"))
       {
-         enemyGuy3.GetComponent<Guy>().speed = 0;
+         enemyGuy3.GetComponent<Waypoints>().speed = 0;
          enemyGuy3.GetComponent<Animator>().SetTrigger("Kneel");
          enemyGuy3.transform.DOMove(enemyStackPosition3.position, 0.5f);
          enemyGuy3.GetComponent<CapsuleCollider>().height = 1.8f;
@@ -147,7 +147,7 @@ public class StackPlayers : MonoBehaviour
       }
       else if (other.gameObject.CompareTag("EnemyGuy4"))
       {
-         enemyGuy4.GetComponent<Guy>().speed = 0;
+         enemyGuy4.GetComponent<Waypoints>().speed = 0;
          enemyGuy4.GetComponent<Animator>().SetTrigger("Kneel");
          enemyGuy4.transform.DOMove(enemyStackPosition4.position, 0.5f);
          enemyGuy4.GetComponent<CapsuleCollider>().height = 1.8f;
@@ -157,7 +157,7 @@ public class StackPlayers : MonoBehaviour
       }
       else if (other.gameObject.CompareTag("EnemyGuy5"))
       {
-         enemyGuy5.GetComponent<Guy>().speed = 0;
+         enemyGuy5.GetComponent<Waypoints>().speed = 0;
          enemyGuy5.GetComponent<Animator>().SetTrigger("Kneel");
          enemyGuy5.transform.DOMove(enemyStackPosition5.position, 0.5f);
          enemyGuy5.GetComponent<CapsuleCollider>().height = 1.8f;
@@ -167,7 +167,7 @@ public class StackPlayers : MonoBehaviour
       }
       else if (other.gameObject.CompareTag("EnemyGuy6"))
       {
-         enemyGuy6.GetComponent<Guy>().speed = 0;
+         enemyGuy6.GetComponent<Waypoints>().speed = 0;
          enemyGuy6.GetComponent<Animator>().SetTrigger("Kneel");
          enemyGuy6.transform.DOMove(enemyStackPosition6.position, 0.5f);
          enemyGuy6.GetComponent<CapsuleCollider>().height = 1.8f;

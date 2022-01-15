@@ -7,9 +7,6 @@ public class GirlEnemy : MonoBehaviour
 {
     [SerializeField] private Transform pfHeartProjectile;
     [SerializeField] private Transform pfheartProjectilePos;
-    [SerializeField] private LayerMask mouseColliderLayerMask;
-    [SerializeField] private float timer = .5f;
-    [SerializeField] private int waitingTime = 2;
     private Animator girlAnimator;
 
 
@@ -25,11 +22,11 @@ public class GirlEnemy : MonoBehaviour
     private void Start() {
         Invoke("ShootGuy1", 4f);
         Invoke("ShootGuy2", 8f);
-        Invoke("ShootGuy3", 14f);
-        Invoke("ShootGuy3", 18f);
-        Invoke("ShootGuy3", 22f);
-        Invoke("ShootGuy3", 26f);
-        Invoke("ShootGuy3", 31f);
+        //Invoke("ShootGuy3", 14f);
+        // Invoke("ShootGuy3", 18f);
+        // Invoke("ShootGuy3", 22f);
+        // Invoke("ShootGuy3", 26f);
+        // Invoke("ShootGuy3", 31f);
     }
 
 
